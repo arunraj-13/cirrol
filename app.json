@@ -1,16 +1,12 @@
 {
   "expo": {
-    "name": "cirrol",
+    "name": "Cirrol",
     "slug": "cirrol",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -19,12 +15,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.arunraj13.cirrol"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0476aa1c-5768-422f-b788-206b49352f83"
+      }
     }
   }
 }
